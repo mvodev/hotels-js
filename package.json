@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "jest": "29.3.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 56,
+        "lines": 77
+      }
+    },
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "testMatch": [
+      "**/*.spec.js"
+    ],
+    "testTimeout": 15000
+  }
+}
